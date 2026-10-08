@@ -3,7 +3,10 @@ body {
     max-width: 900px;
     margin: auto;
     padding: 20px;
-    background-color:#89cff0;
+    /* background-color:#89cff0; */
+    background-image: url(IMG_3832.JPG);
+    background-size: cover;
+
 }
 
 header {
@@ -16,6 +19,6 @@ section {
 }
 
 h1 {
-    color: purple;
+    color: orangered;
     margin: auto;
 }
