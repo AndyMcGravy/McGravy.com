@@ -3,7 +3,7 @@ body {
     max-width: 900px;
     margin: auto;
     padding: 20px;
-    background-color:blueviolet;
+    background-color:#89cff0;
 }
 
 header {
@@ -16,5 +16,6 @@ section {
 }
 
 h1 {
-    color: olivedrab;
+    color: purple;
+    margin: auto;
 }
