@@ -1,6 +1,6 @@
 # McGravy.com
-My website/portfolio/resource site (PUBLIC/nothing PII)
+My website/portfolio/resource site
 
-working on converting my site from WordPress to GitHub Pages with Domain connections.
+Working on adding features and themes, it is pretty bare bone HTML CSS right now.
 
 www.mcgravy.com
