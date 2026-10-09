@@ -2,12 +2,42 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>McGravy</title>
 
     <link rel="stylesheet" href="css/style.css">
+
+    <style> /* This style section is inspired by W3Schools Wiki */
+
+        * {
+            box-sizing: border-box;
+        }
+        
+        .row {
+            display: flex
+        }
+
+        .column { /*This makes the columns equal size */
+            flex: 50%;
+        }
+
+        row:after { /*This clears the floats after columns (if W3 didnt mention it, it would haunt me)*/
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        @media screen and (max-width: 600px) { /*W3 mentioned this as a way to make your site more flexible across devices and window sizes */
+            .column {
+            width: 100%;
+            }
+        }
+
+    </style>
+
 </head>
 
 <body>
@@ -20,33 +50,32 @@
     </header>
 
     <main>
-
+    
         <section>
 
-            <h2>About Me</h2>
-
-            <p>
-                I'm currently studying cybersecurity and building
-                my skills through labs, projects, and certifications.
-            </p>
+            <div class="row">
+                <div class="column" style="background-color:rgba(240, 248, 255, 0.5);">
+                    <h2>About Me</h2>
+                    </p>
+                        I'm currently studying cybersecurity and building
+                        my skills through labs, projects, and certifications.
+                    </p>
+                </div>
+                <div class="column" style="background-color:rgba(240, 248, 255, 0.5);">
+                    <h2>Current Goals</h2>
+                    <ul>
+                        <li>Finish college</li>
+                        <li>Earn Security+</li>
+                        <li>Build a Portfolio Website (this site)</li>
+                    </ul>
+                </div>
+            </div>
 
         </section>
 
-        <section>
+        <section> 
 
-            <h2>Current Goals</h2>
-
-            <ul>
-                <li>Finish college</li>
-                <li>Earn Security+</li>
-                <li>Build a Portfolio Website (this site)</li>
-            </ul>
-
-        </section>
-
-        <section>
-
-            <h2>Current Website Status</h2>
+            <h2>Current Website Status</h2> 
 
             <ul>
                 <li>HTML -> implemented</li>
