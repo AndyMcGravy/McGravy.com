@@ -23,11 +23,21 @@ section {
 
     margin-bottom: 40px;
 
+    text-align: center;
+
 }
 
 h1 {
 
     color: orangered;
     margin: auto;
+
+}
+
+footer {
+
+    margin: auto;
+    background-color: rgba(240, 248, 255, 0.2);
+    max-width: 120px;
 
 }
